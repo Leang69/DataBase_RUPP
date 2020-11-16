@@ -1,0 +1,2 @@
+DECLARE @g geometry = 'COMPOUNDCURVE((4.3 0.5, 3.6 1.5,4.3 2, 5 1.5),CIRCULARSTRING( 5 1.5, 4.75 1.25, 5.45 1.1),(5.45 1.1, 5.45 0.5, 4.3 0.5))';  
+INSERT GeometryObject(GeomType,GeomObject) VALUES ('COMPOUNDCURVE',@g); 
